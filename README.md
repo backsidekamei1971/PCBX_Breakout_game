@@ -1,6 +1,6 @@
 <img width="1419" height="1121" alt="IMG_9147" src="https://github.com/user-attachments/assets/be68df35-f92b-4f08-bf51-6f54029fb442" />
-Arduinoだと、すぐにこれが出来てしまうけど、あえて ラズパイPicoでやる場合は
-命令文でvoid setup()の場所に
-Wire.setSDA(Pin番号)
-Wire.setSCL(Pin番号)
+Arduinoだと、すぐにこれが出来てしまうけど、あえて ラズパイPicoでやる場合は<br>
+命令文でvoid setup()の場所に<br>
+Wire.setSDA(Pin番号)<br>
+Wire.setSCL(Pin番号)<br>
 Pin番号はPico Pinoutで検索して出てくるピン配置でSDA、SCLとなっていて、しかもTx、Rxとなっているピン端子でないといけない
